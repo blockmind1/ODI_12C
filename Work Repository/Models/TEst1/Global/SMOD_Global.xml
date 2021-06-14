@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.08" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="R+8PwBWhNe9/PJHJDlTSGw==" exportKeySalt="c2a3f073-35d8-47f8-b8f9-625ec6f0ceb2" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="yQ76V7zlAw/NcShJGa3wCw==" exportKeySalt="2f34a7e2-7948-4786-ab09-88073a05afe1" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpSubModel">
 		<Field name="CodSmod" type="java.lang.String"><![CDATA[DEFAULT]]></Field>
 	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2021-05-20 03:27:08.0]]></Field>
 	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[1cb23976-d688-4a8f-9500-64f6fbbaa1f6]]></Field>
-	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
 	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
 	<Field name="IMod" type="com.sunopsis.sql.DbInt"><![CDATA[21]]></Field>
 	<Field name="ISmod" type="com.sunopsis.sql.DbInt"><![CDATA[22]]></Field>
@@ -27,6 +27,14 @@
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[ff784bd8-9731-43d1-9858-36cffdf8cae4]]></Field>
 	<Field name="Version" type="java.lang.String"><![CDATA[20a2e0ca02f03d5ac6cffc1279af302055dbaeb1]]></Field>
 	<Field name="Path" type="java.lang.String"><![CDATA[TAB_TRG_SALES.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[DIEGO]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[3783a739-61c8-4a06-a013-4d62c47a95f4]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[71f0b6642c4f446c797c91174038e98f13ee8275]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_DIEGO.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MODEL.21]]></Field>
